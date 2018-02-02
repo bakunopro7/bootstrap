@@ -1,0 +1,48 @@
+body{
+    background: #bdbdbd;
+}
+header{
+    margin-top: 30px;
+}
+header .nav {
+    background: #fff;
+    min-height: 80px;
+    overflow: hidden;
+}
+/* logo */
+header .logo h2,
+header .logo span,
+header .logo p{
+    font-size: 16px;
+    font-family: 'Roboto Mono', monospace;
+    display: inline-block;
+    margin:0px;
+}
+header .logo h2{
+    font-family: 'Pacifico', cursive;
+}
+
+header .logo .icono{
+    color: #bfbfbf;
+}
+/* menu navegacion */
+header .menu {
+    padding: 0;
+}
+header .menu a{
+    display: block;
+    color:#fff;
+    padding:  0 30px;
+    text-decoration: none;
+    font-family: 'Pacifico', cursive;
+}
+header .menu a div span{
+    font-weight: 200;
+}
+header .menu .color1{background: #3da5e2}
+header .menu .color2{background: #2a7eaf}
+header .menu .color3{background: #125175}
+
+header .menu .color1:hover {background: #3585b3}
+header .menu .color2:hover  {background: #216a94}
+header .menu .color3:hover {background: #0d3a53}
