@@ -46,3 +46,16 @@ header .menu .color3{background: #125175}
 header .menu .color1:hover {background: #3585b3}
 header .menu .color2:hover  {background: #216a94}
 header .menu .color3:hover {background: #0d3a53}
+
+/*propiedades slider*/
+.slider{
+    margin-bottom: 40px;
+}
+.slider .col {
+    padding: 0px;
+}
+
+.slider .col img{
+    height: 500px;
+    width: 100%;
+}
