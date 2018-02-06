@@ -161,3 +161,37 @@ header .menu .color3:hover {background: #0d3a53}
     margin-bottom: 40px;
     text-align: center;
 }
+
+.contacto .form-group{
+    margin-bottom: 0;
+}
+
+.formulario input[type='text'],
+.formulario input[type='email'],
+.formulario textarea {
+    padding: 15px;
+    border: none;
+    width: 100%;
+    font-family: 'Pacifico', cursive;
+    margin-bottom: 30px;
+}
+
+.formulario textarea {
+    height: 150px;
+    min-height: 150px;
+    max-height: 250px;
+}
+
+.formulario .boton{
+    background: #3da5e2;
+    border: none;
+    padding: 7px 30px;
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    cursor: pointer;
+    width: auto;
+    border-radius: 15px;
+}
+.formulario .boton:hover{
+    background: #1ba0a9;
+}
