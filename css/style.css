@@ -59,3 +59,43 @@ header .menu .color3:hover {background: #0d3a53}
     height: 500px;
     width: 100%;
 }
+
+/*portafolio*/
+
+.portafolio{
+
+    background: #fff;
+    border-top: 5px solid #3da5e2;
+    padding: 0 20px;
+    margin-bottom: 40px;
+}
+
+.portafolio .titulo{
+    padding: 40px 0;
+    text-align: center;
+    color:#3da5e2;
+    font-family: 'Open sans',sans-serif;
+    font-weight: 300;
+}
+
+.portafolio .galeria .contenedor-imagen{
+    margin-bottom: 40px;
+    max-height:180px;
+    overflow: hidden;;
+}
+
+.portafolio .galeria .contenedor-imagen a{
+    display: inline-block;;
+    background: #3da5e2,  
+}
+
+.portafolio .galeria .contenedor-imagen:hover img{
+    opacity: .3;   
+}
+
+/*estilizando el modal*/
+.portafolio .modal-dialog{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
