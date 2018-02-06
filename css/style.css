@@ -99,3 +99,65 @@ header .menu .color3:hover {background: #0d3a53}
     height: 100%;
     max-width: 100%;
 }
+
+/*acerca de mi*/
+
+.acerca-de{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.acerca-de .perfil{
+    text-align: center;
+}
+.acerca-de .perfil img{
+    margin-bottom: 30px;
+}
+
+.acerca-de .perfil .nombre{
+    color: #545454;
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 2px;
+}
+.acerca-de .info .resumen{
+    letter-spacing: 1px;
+}
+.acerca-de .info .label{
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    font-weight: 600;
+    color: #005385;
+    margin-bottom: 10px;
+}
+
+.acerca-de .info .progress{
+   background: #005385;
+   border-radius: 12px;
+   margin-bottom: 15px;
+}
+
+.acerca-de .info .progress-bar{
+    height: 25px;
+    background: #3da5e2;
+    line-height: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+/*propiedades de contacto*/
+.contacto{
+    padding: 40px 0;
+    border-top: 3px solid #cbcbcb;
+    margin-bottom: 40px;
+}
+
+.contacto .titulo{
+    color: #003855;
+    font-family: 'Pacifico', cursive;
+    font-weight: 300;
+    font-size: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
